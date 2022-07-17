@@ -4,6 +4,7 @@ import 'package:furniture_shop/components/rounded_button.dart';
 import 'package:furniture_shop/components/title_text.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../controller/cart_controller.dart';
 import 'order_successfull.dart';
@@ -102,9 +103,35 @@ class CartScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                  RoundedButton("Procceed to Checkout", Colors.black, () {
-                    _cartController.cartItemList.clear();
-                    Get.to(() => OrderSuccessfull());
+                  RoundedButton("Procceed to Checkout", Colors.black, () async {
+                    try {
+                      await launch('https://rzp.io/l/LaL7rnq');
+                    } catch (e) {
+                      showDialog(
+                          context: context,
+                          builder: (_) => AlertDialog(
+                                backgroundColor:
+                                    const Color.fromRGBO(34, 48, 60, 0.6),
+                                elevation: 5.0,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(40.0),
+                                ),
+                                title: Center(
+                                  child: Text(
+                                    'Unknown Error Occured',
+                                    style: TextStyle(
+                                        color: Colors.red, fontSize: 18.0),
+                                  ),
+                                ),
+                                content: Center(
+                                  child: Text(
+                                    'Make Sure your Internet Connected Properly',
+                                    style: TextStyle(
+                                        color: Colors.amber, fontSize: 18.0),
+                                  ),
+                                ),
+                              ));
+                    }
                   }),
                 ],
               ),
