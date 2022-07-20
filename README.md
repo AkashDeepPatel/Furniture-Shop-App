@@ -43,15 +43,16 @@ The whole authentication is managed by firebase or services for security and aut
 7. Money Wallet payment
 
 # Screenshots:
-![](screenshots/Home.png)
 
 ![](screenshots/Registration%20Screen.png)
 
 ![](screenshots/Log-in%20Screen.png)
 
-![](screenshots/Cart.png)
+![](screenshots/Home.png)
 
 ![](screenshots/Product%20Details.png)
+
+![](screenshots/Cart.png)
 
 ![](screenshots/Payment.png)
 
