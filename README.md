@@ -42,3 +42,5 @@ The whole authentication is managed by firebase or services for security and aut
 6. Reward/Coupon system
 7. Money Wallet payment
 
+# Screenshots:
+<img src="Furniture-Shop-App/screenshots/Registration Screen.png" width="128"/>
