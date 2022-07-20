@@ -44,9 +44,9 @@ The whole authentication is managed by firebase or services for security and aut
 
 # Screenshots:
 ![](screenshots/Cart.png)
-[]!(screenshots/Home.png)
-[]!(screenshots/Log-in%20Screen.png)
-[]!(screenshots/Payment%20Successfull.png)
-[]!(screenshots/Payment.png)
-[]!(screenshots/Product%20Details.png)
-[]!(screenshots/Registration%20Screen.png)
+![](screenshots/Home.png)
+![](screenshots/Log-in%20Screen.png)
+![](screenshots/Payment%20Successfull.png)
+![](screenshots/Payment.png)
+![](screenshots/Product%20Details.png)
+![](screenshots/Registration%20Screen.png)
