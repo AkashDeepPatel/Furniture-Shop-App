@@ -43,4 +43,4 @@ The whole authentication is managed by firebase or services for security and aut
 7. Money Wallet payment
 
 # Screenshots:
-<img src="Furniture-Shop-App/screenshots/Cart.png" width="128"/>
+![](screenshots/Cart.png)
