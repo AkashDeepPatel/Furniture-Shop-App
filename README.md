@@ -16,7 +16,7 @@ Thus the online furniture shopping project brings an entire furniture shop onlin
 5. Dart
 6. REST API
 7. Razorpay
-8. Firebase for backend
+8. Firebase for backend.
 
 # Implementation Details:-
 1. Frontend is implemented Completely using Flutter.
